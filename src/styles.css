@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+}
+/* body > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+} */
+
+/* @media screen and (max-width: 480px) {
+  section {
+    width: 80%;
+    background-color: red;
+  }
+} */
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%)
+
+### Neutral
+
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+- Dark Blue: hsl(218, 23%, 16%)
+
+## Typography
+
+### Body Copy
+
+- Font size (quote): 28px
+
+### Font
+
+- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
+- Weights: 800 */

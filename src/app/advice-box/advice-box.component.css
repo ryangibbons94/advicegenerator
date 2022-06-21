@@ -1,0 +1,70 @@
+div {
+  background-color: hsl(217, 19%, 24%);
+  width: 468px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+  padding: 2rem;
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+div * {
+  text-align: center;
+}
+
+.quote {
+  font-size: 28px;
+  font-weight: 800;
+  color: #cfe4e9;
+}
+
+.button {
+  background-color: hsl(150, 100%, 66%);
+  border: none;
+  margin-top: 50px;
+  margin-bottom: -60px;
+  padding: 17.5px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.spin {
+  animation: rotate-img 1000ms;
+}
+
+.advice {
+  color: hsl(150, 100%, 66%);
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
+@keyframes rotate-img {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.button:hover {
+  box-shadow: 0px 0px 50px hsl(150, 100%, 66%);
+  background-color: hsl(150, 100%, 70%);
+}
+
+@media screen and (max-width: 480px) {
+  div {
+    width: 90%;
+    margin-left: 5%;
+  }
+}

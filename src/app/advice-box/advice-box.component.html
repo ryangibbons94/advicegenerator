@@ -1,0 +1,13 @@
+<div>
+  <p class="advice" *ngIf="quote">ADVICE #{{ quote.slip.id }}</p>
+  <p class="quote" *ngIf="quote">"{{ quote.slip.advice }}"</p>
+  <img src="../../assets/pattern-divider-mobile.svg" alt="" />
+  <button class="button" type="button" (click)="getQuote()">
+    <img
+      [ngClass]="{ spin: spin }"
+      class="dice"
+      src="../../assets/icon-dice.svg"
+      alt=""
+    />
+  </button>
+</div>
